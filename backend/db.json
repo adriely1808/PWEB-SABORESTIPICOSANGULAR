@@ -1,0 +1,12 @@
+{
+  "produtos": [
+    { "id": 1, "nome": "Feijoada Completa", "validade": "2027-03-15", "precoProduto": 59.9 },
+    { "id": 2, "nome": "Acarajé", "validade": "2026-12-20", "precoProduto": 18 },
+    { "id": 3, "nome": "Pão de Queijo (porção)", "validade": "2026-12-05", "precoProduto": 12.5 },
+    { "id": 4, "nome": "Moqueca Capixaba", "validade": "2027-01-10", "precoProduto": 89.9 },
+    { "id": 5, "nome": "Tapioca de Coco", "validade": "2026-12-12", "precoProduto": 14 },
+    { "id": 6, "nome": "Brigadeiro (dúzia)", "validade": "2027-02-01", "precoProduto": 36 },
+    { "id": 7, "nome": "Baião de Dois", "validade": "2027-01-25", "precoProduto": 32 },
+    { "id": 8, "nome": "Vatapá", "validade": "2027-01-05", "precoProduto": 42 }
+  ]
+}

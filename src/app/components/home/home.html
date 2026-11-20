@@ -1,0 +1,34 @@
+<h1 class="mt-3 text-primary">Seja bem-vindo aos Sabores do Brasil 🇧🇷</h1>
+<h4 class="text-danger">{{ anuncio }}</h4>
+<div class="row mt-3 mb-5 pb-4">
+  <div class="col-md-4 mb-3">
+    <app-card-produto
+      [foto]="foto"
+      [nomeProduto]="nomeProduto"
+      [promocao]="promocao"
+      [idProduto]="idProduto"
+      [dataValidade]="dataValidade"
+      [precoProduto]="precoProduto"
+    ></app-card-produto>
+  </div>
+  <div class="col-md-4 mb-3">
+    <app-card-produto
+      foto="img/acaraje.svg"
+      nomeProduto="Acarajé"
+      [promocao]="false"
+      [idProduto]="2"
+      dataValidade="2026-12-20"
+      [precoProduto]="18.0"
+    ></app-card-produto>
+  </div>
+  <div class="col-md-4 mb-3">
+    <app-card-produto
+      foto="img/pao-de-queijo.svg"
+      nomeProduto="Pão de queijo"
+      [promocao]="false"
+      [idProduto]="3"
+      dataValidade="2026-12-05"
+      [precoProduto]="12.5"
+    ></app-card-produto>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="card" style="width: 18rem;">
+<img [src]="foto" class="card-img-top" [alt]="nomeProduto">
+  <div class="card-body">
+    <h5 class="card-title">
+        {{nomeProduto | uppercase}} <br>
+        @if (promocao) {
+            <span 
+                class="badge text-bg-success">
+                Promoção
+            </span>    
+        } @else {
+            <span 
+                class="badge text-bg-primary">
+                Aproveite
+                </span>
+        }
+
+    </h5>
+    <p class="card-text">Identificação: {{idProduto | number:'2.0-0'}}</p>
+    Validade: {{dataValidade | date:'shortDate'}}
+    <a href="#" class="btn btn-primary float-end">{{precoProduto | currency: "BRL"}}</a>
+
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "backend-comidas-tipicas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API fake (json-server) para o CRUD de comidas típicas",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}

@@ -1,0 +1,54 @@
+<h1 class="my-3 text-primary">Cadastrar Comida Típica</h1>
+
+<div class="card shadow">
+  <form class="m-3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="nome">Nome da Comida: </label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Ex.: Feijoada, Acarajé, Moqueca..."
+            name="nomeProduto"
+            [(ngModel)]="produto.nome"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Fim row nome -->
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="validade">Validade: </label>
+        <input
+          type="date"
+          class="form-control"
+          name="validade"
+          [(ngModel)]="produto.validade"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="precoProduto">Preço (R$): </label>
+        <input
+          type="number"
+          class="form-control"
+          placeholder="0.00"
+          name="preco"
+          [(ngModel)]="produto.precoProduto"
+        />
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col">
+        <button type="button" class="btn btn-default" routerLink="/produtos">
+          Voltar
+        </button>
+        <button type="button" class="btn btn-success float-end" (click)="salvarProduto()">
+          Salvar
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

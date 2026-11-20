@@ -1,0 +1,53 @@
+/* Tema: Sabores do Brasil (comidas típicas) - paleta quente */
+:root {
+  --bs-primary: #b5451b;
+  --bs-primary-rgb: 181, 69, 27;
+  --bs-link-color: #b5451b;
+  --bs-link-color-rgb: 181, 69, 27;
+  --bs-link-hover-color: #8e3412;
+  --bs-link-hover-color-rgb: 142, 52, 18;
+}
+
+body {
+  background-color: #fff8ec;
+  padding-bottom: 3.5rem; /* espaço para o rodapé fixo */
+}
+
+.navbar {
+  background-color: #fde9c4 !important;
+  border-bottom: 3px solid #e3a008;
+}
+
+.btn-primary {
+  --bs-btn-bg: #b5451b;
+  --bs-btn-border-color: #b5451b;
+  --bs-btn-hover-bg: #8e3412;
+  --bs-btn-hover-border-color: #8e3412;
+  --bs-btn-active-bg: #8e3412;
+  --bs-btn-active-border-color: #8e3412;
+  --bs-btn-disabled-bg: #b5451b;
+  --bs-btn-disabled-border-color: #b5451b;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #b5451b;
+  --bs-btn-border-color: #b5451b;
+  --bs-btn-hover-bg: #b5451b;
+  --bs-btn-hover-border-color: #b5451b;
+  --bs-btn-active-bg: #b5451b;
+  --bs-btn-active-border-color: #b5451b;
+}
+
+.card {
+  border-color: #f1d9a8;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #fff1d6;
+}
+
+.nav.fixed-bottom {
+  background-color: #fde9c4 !important;
+  border-top: 3px solid #e3a008;
+  padding: 0.35rem 0;
+}
